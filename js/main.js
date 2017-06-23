@@ -16,9 +16,9 @@
       });
 
 	
-  	// Portfolio isotope filter
+  	// cal isotope filter
     $(window).load(function() {
-        var $container = $('.portfolio-items');
+        var $container = $('.cal-items');
         $container.isotope({
             filter: '*',
             animationOptions: {
@@ -46,7 +46,7 @@
 	
 	
     // Nivo Lightbox 
-    $('.portfolio-item a').nivoLightbox({
+    $('.cal-item a').nivoLightbox({
             effect: 'slideDown',  
             keyboardNav: true,                            
         });
